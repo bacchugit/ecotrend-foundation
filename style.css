@@ -343,5 +343,35 @@ footer { text-align:center; padding:20px; background:#14532d; color:#fff; }
 #mission-vision h2 { margin-bottom:12px; }
 #mission-vision p { font-size:1rem; line-height:1.7; }
 
+/* HERO TEXT FIX — MOBILE */
+@media (max-width: 768px) {
 
+  .hero {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .hero-content {
+    max-width: 92%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+}
  
