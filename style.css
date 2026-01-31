@@ -343,14 +343,5 @@ footer { text-align:center; padding:20px; background:#14532d; color:#fff; }
 #mission-vision h2 { margin-bottom:12px; }
 #mission-vision p { font-size:1rem; line-height:1.7; }
 
-@media (max-width: 768px) {
-  .hero {
-    padding: 80px 20px; /* reduce side padding */
-    justify-content: center;
-  }
-  .hero-content {
-    max-width: 100px;
-  padding: 0 10px;
-  text-align: center;
-  }
-}
+
+ 
