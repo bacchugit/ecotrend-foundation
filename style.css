@@ -251,6 +251,16 @@ padding: 120px;  /*creates space below navbar */
   }
 }
 
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .hero {
+    width: 100%;
+    min-height: 100svh;  /* mobile-safe viewport height*/
+    background-position: center top;
+  }
+}
 .btn:hover { background: #14532d; }
 
 /* GRID & CARDS */
